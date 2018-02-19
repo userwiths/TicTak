@@ -4,9 +4,11 @@ class TicTak():
         self.Table=[[" "," "," "],[" "," "," "],[" "," "," "]]
         self.Turn=0;
 
+    def Expand(self,num):
+        return (int((num-1)/3),int((num-1)%3))
+
     def Play(self,num):
-        y=int((num-1)/3);
-        x=int((num-1)%3);
+        y,x=self.Expand(num)
         if self.Table[y][x]!=" ":
             print("This possition is occupied!\nPlease try with another place ...\n")
             self.Print()
