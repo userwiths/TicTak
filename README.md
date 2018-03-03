@@ -1,12 +1,12 @@
-A simple Tic-Tak-Toe Game writen in python.
+A simple Tic-Tak-Toe Game writen in python and one writen in java.
 
-In order to run the game you must have Python.3 installed.
-Ad just double-click on "Game.py" or write "python Game.py" in the console.
+For the python version:
+It is a Console program, simple, but the bot is as always unbeatable.
+It requeres Python.3
 
-This is the ground for my work with bots, inteligence, etc.
-I am Planing to soon write a bot against who you could play.
-This afcourse will take a little time as it has to be touth
-throught out, about how it is going to be writen.
+For the java version:
+The java version has both a console and visual (java.swing) interface.
+The files are a copy from the NetBeans project, sadly I still don't
+know how exactly to write build files but thats next.
+The bot, once again is made unbeatable.
 
-But my idea is that this is simple, and soon it shall be upgraded,
-atleast a little. :)
